@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Computerscience MJU</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Athiti">
+
+    <style>
+        body {
+            font-family: Athiti;
+        }
+    </style>
+    <meta name="viewport" charset="utf-8" content="width-davice-width, initial-scale=1" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<style>
+    body {
+        background-color: #ffffff;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+
+    <center>
+
+        <div style="display: block; margin: auto;">
+            <img src="รูป/หัวเว็บMJU.png"></img>
+        </div>
+
+        <div style="padding-top: 5px; padding-bottom: 20px;">
+            <button onclick="document.location = 'ใส่ลิงค์หน้าหลัก'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                cursor:pointer; overflow: hidden;">
+                <font size="4">หน้าหลัก</font>
+            </button>
+            &emsp;&emsp;
+            <button onclick="document.location = 'ใส่ลิงค์เกี่ยวกับสาขาวิชา'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                cursor:pointer; overflow: hidden;">
+                <font size="4">เกี่ยวกับสาขาวิชา</font>
+            </button>
+            &emsp;&emsp;
+            <button onclick="document.location = 'ใส่ลิงค์ระบบ E-Learning'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                cursor:pointer; overflow: hidden;">
+                <font size="4">ระบบ E-Learning</font>
+            </button>
+            &emsp;&emsp;
+            <button onclick="document.location = 'ใส่ลิงค์ระบบสารสนเทศ'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                cursor:pointer; overflow: hidden;">
+                <font size="4">ระบบสารสนเทศ</font>
+            </button>
+            &emsp;&emsp;
+            <button onclick="document.location = 'ใส่ลิงค์อื่นๆ'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                cursor:pointer; overflow: hidden;">
+                <font size="4">อื่นๆ</font>
+            </button>
+        </div>
+
+
+        <div>
+            <div class="w3-content" style="position:relative ; left:-200px; top:1px;">
+
+                <img class="mySlides" src="รูป/01.jpg" style="width:1100px; height: 700px;">
+                <img class="mySlides" src="รูป/02.jpg" style="width:1100px; height: 700px;">
+                <img class="mySlides" src="รูป/01.jpg" style="width:1100px; height: 700px;">
+                <img class="mySlides" src="รูป/02.jpg" style="width:1100px; height: 700px;">
+                <img class="mySlides" src="รูป/01.jpg" style="width:1100px; height: 700px;">
+                <img class="mySlides" src="รูป/02.jpg" style="width:1100px; height: 700px;">
+
+            </div>
+
+
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+        </div>
+
+        <div style="position:relative; left:600px; top: -650px;">
+            <img src="รูป/contect.png"></img>
+        </div>
+
+        <div style="position:relative; left:600px; top: -940px;">
+            <button onclick="document.location = 'https://g.page/CSMJU?share'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                cursor:pointer; overflow: hidden;">
+                <font size="5">Open in Google Maps</font>
+            </button>
+        </div>
+
+        <div padding-top: 5px; padding-bottom: 20px;>
+
+            <div style="position:relative; left:-625px; top: -600px;">
+                <font size="6"><b>ข่าวสาร</b></font>
+            </div>
+
+            <div style="position: relative; left:-620px; top: -580px;">
+                <button onclick="document.location='......'"
+                    style="background-color: #ffe89b; width:200px; height:45px ;"">
+                    <font color=#ffffff>ข่าวประกาศ</font>
+                </button>
+            </div>
+            <div style=" position: relative; left:-620px; top: -580px;">
+                    <button onclick="document.location='......'"
+                        style="background-color:#e4e4e4 ;  width:200px; height:45px ;"">
+                    <font color=#000000>ข่าวสมัครงาน</font>
+                </button>
+            </div>
+            <div style=" position: relative; left:-620px; top: -580px;">
+                        <button onclick="document.location='......'"
+                            style="background-color: #e4e4e4 ; width:200px; height:45px ;"">
+                    <font color=#000000>ข่าวการศึกษาต่อ</font>
+                </button>
+            </div>
+            <div style=" position: relative; left:-620px; top: -580px;">
+                            <button onclick="document.location='......'"
+                                style="background-color: #e4e4e4 ; width:200px; height:45px ;"">
+                    <font color=#000000>ข่าวประกาศทุน</font>
+                </button>
+            </div>
+            <div style=" position: relative; left:-620px; top: -580px;">
+                                <button onclick="document.location='......'"
+                                    style="background-color: #e4e4e4 ; width:200px; height:45px ;"">
+                    <font color=#000000>ข่าวอื่นๆ</font>
+                </button>
+            </div>
+            <div style=" position: relative; left:-620px; top: -580px;">
+                                    <button onclick="document.location='......'"
+                                        style="background-color: #e4e4e4 ; width:200px; height:45px ;"">
+                    <font color=#000000>แหล่งความรู้ KM</font>
+                </button>
+            </div>
+
+            <div style=" position: relative; left:-250px; top: -850px;">
+                                        <button onclick="document.location='......'"
+                                            style="background-color: #ffe89b; border: hidden; width:270px; height:270px ;"">
+                    <font color=#000000>แสดงข้อมูล</font>
+                </button>
+            </div>
+
+            <div style=" position: relative; left:150px; top: -1120px;">
+                                            <button onclick="document.location='......'"
+                                                style="background-color: #ffe89b; border: hidden; width:270px; height:270px ;"">
+                    <font color=#000000>แสดงข้อมูล</font>
+                </button>
+            </div>
+
+            <div style=" position: relative; left:550px; top: -1391px;">
+                                                <button onclick="document.location='......'"
+                                                    style="background-color: #ffe89b; border: hidden; width:270px; height:270px ;"">
+                    <font color=#000000>แสดงข้อมูล</font>
+                </button>
+            </div>
+
+
+        </div>
+
+        <div padding-top: 5px; padding-bottom: 20px;>
+            <div style=" position:relative; left:-610px; top: -1250px;">
+                                                    <font size="6"><b>ภาพกิจกรรม</b></font>
+            </div>
+            <div style="position:relative; top: -1250px;">
+                <font size="5">ภาพกิจกรรมสาขาวิทยาการคอมพิวเตอร์ ต่างๆที่จัดขึ้นตั้งแต่อดีตจนถึงปัจจุบัน</font>
+                <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                    cursor:pointer; overflow: hidden;">
+                    <font size="5" color=#FFDE59>ดูรูปภาพทั้งหมด</font>
+                </button>
+            </div>
+        </div>
+
+        <div style="position:relative; top: -1100px;">
+
+            <button onclick="document.location='......'"
+                style="background-color: #d3d3d3; border: hidden; width:270px; height:270px ;"">
+                <font color=#000000>แสดงข้อมูล</font>
+            </button>
+
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+            <button onclick=" document.location='......'" 
+                style=" background-color: #d3d3d3; border: hidden; width:270px; height:270px ;"">
+                <font color=#000000>แสดงข้อมูล</font>
+            </button>
+
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+            <button onclick="document.location='......'"
+                style="background-color: #d3d3d3; border: hidden; width:270px; height:270px ;"">
+                <font color=#000000>แสดงข้อมูล</font>
+            </button>
+
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+            <button onclick=" document.location='......'" 
+                style=" background-color: #d3d3d3; border: hidden; width:270px; height:270px ;"">
+                <font color=#000000>แสดงข้อมูล</font>
+            </button>
+
+        </div>
+
+        <div>
+
+            <div style="position:relative; left:-550px; top: -900px;">
+                <font size="6"><b>MJU Links</b></font>
+                <br>
+                <br>
+                <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                        cursor:pointer; overflow: hidden;">
+                    <font size="5">>มหาวิทยาลัยแม่โจ้</font>
+                </button>
+                <br>
+                <br>
+                <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                        cursor:pointer; overflow: hidden;">
+                    <font size="5">>ระบบ E-manage</font>
+                </button>
+                <br>
+                <br>
+                <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                        cursor:pointer; overflow: hidden;">
+                    <font size="5">>งานสหกิจศึกษา</font>
+                </button>
+                <br>
+                <br>
+                <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                        cursor:pointer; overflow: hidden;">
+                    <font size="5">>ศูนย์เทคโนโลยีสารสนเทศ</font>
+                </button>
+                <br>
+                <br>
+                <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                        cursor:pointer; overflow: hidden;">
+                    <font size="5">>เอกสารอิเล็กทรอนิกส์</font>
+                </button>
+                <br>
+                <br>
+                <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                        cursor:pointer; overflow: hidden;">
+                    <font size="5">>เมล์มหาวิทยาลัย</font>
+                </button>
+
+            </div>
+        </div>
+
+        <div style="position:relative; left:-80px; top: -1215px;">
+
+            <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                    cursor:pointer; overflow: hidden;">
+                <font size="5">>สำหนักบริหารและพัฒนาวิชาการ</font>
+            </button>
+            <br>
+            <br>
+            <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                    cursor:pointer; overflow: hidden;">
+                <font size="5">>คณะวิทยาศาสตร์</font>
+            </button>
+            <br>
+            <br>
+            <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                    cursor:pointer; overflow: hidden;">
+                <font size="5">>เฟสบุคสาขาวิชาฯ</font>
+            </button>
+            <br>
+            <br>
+            <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                    cursor:pointer; overflow: hidden;">
+                <font size="5">>ศูนย์สอบอิเล็กทรอนิกส์</font>
+            </button>
+            <br>
+            <br>
+            <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                    cursor:pointer; overflow: hidden;">
+                <font size="5">>งานทะเบียนและสถิตินักศึกษา</font>
+            </button>
+            <br>
+            <br>
+            <button onclick="document.location = '....'" style="background-color: Transparent; background-repeat:no-repeat; border: none;
+                    cursor:pointer; overflow: hidden;">
+                <font size="5">>กองการเจ้าหน้าที่</font>
+            </button>
+
+        </div>
+
+
+    </center>
+
+</body>
